@@ -29,20 +29,22 @@
 
 ## 使用方法
 
-###1. 数据预处理
+### 1. 数据预处理
 
 运行以下命令以预处理你的图片：
 ```sh
 python data_preprocessing.py
+ ```
 
 ### 2. 相机参数估计
 运行以下脚本使用COLMAP进行相机参数估计：
-bash colmap_process.sh
-
+```bash colmap_process.sh
+```
 ### 3. NeRF训练和推理
 运行以下命令训练NeRF模型：
-python nerf_train.py
-
+```python nerf_train.py
+```
 ### 4. 生成3D重建视频
 运行以下命令生成3D重建视频：
-python generate_video.py
+```python generate_video.py
+```
