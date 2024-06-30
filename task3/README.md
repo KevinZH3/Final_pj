@@ -8,6 +8,9 @@
 2. 使用COLMAP进行相机参数估计
 3. NeRF的训练和推理
 4. 生成3D重建视频
+   
+视频效果：链接：https://pan.baidu.com/s/1PtOZDsKWp4-c9KZdsO2eVw 
+提取码：pnnv
 
 ## 环境设置
 
